@@ -1,3 +1,4 @@
+import { ChatsModule } from './chats/chats.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
 import { Module, NestModule } from '@nestjs/common';
@@ -15,6 +16,7 @@ import * as mongoose from 'mongoose';
       useCreateIndex: true,
       useFindAndModify: false,
     }),
+    ChatsModule,
   ],
   controllers: [AppController],
   providers: [],

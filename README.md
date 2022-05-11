@@ -1,6 +1,11 @@
 - http vs socket
+
   - http: 단방향, 폴링방식
   - socket: emit - on 소통
+
+- mongoose version check
+
+- module imports check
 
 ---
 
