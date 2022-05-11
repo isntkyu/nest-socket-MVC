@@ -7,6 +7,9 @@
 
 - module imports check
 
+- socket collection disconnect될 때 사라짐
+  - chatting 모델에 정보 다있음ㄴ
+
 ---
 
 <p align="center">
